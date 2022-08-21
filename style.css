@@ -112,6 +112,6 @@ nav ul li {
 
 @media only screen and (max-width: 600px) {
   .container{
-    background-size:1200px;
+    background-size:1200px 1200px;
   }
 }
