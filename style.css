@@ -111,19 +111,4 @@ nav ul li {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
-    .container{
-        background-image: url("/pexels-andrea-piacquadio-3807536.jpg") ;
-        background-size: cover;
-        background-position: center;
-    }
-    
-  }
- @media only screen and (min-width: 600px) and (max-width:1100px) {
-    .container{
-        background-image: url("/pexels-andrea-piacquadio-3807536.jpg") ;
-        background-size: cover;
-        background-position: center;
-    }
-    
-  }
+
