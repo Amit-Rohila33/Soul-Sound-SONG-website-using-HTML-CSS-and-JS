@@ -52,7 +52,8 @@ nav ul li {
     width: 80%;
     border-radius: 20px;
     background-image: url("pexels-andrea-piacquadio-3807536.jpg") ;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     background-color: red;
 }
 
