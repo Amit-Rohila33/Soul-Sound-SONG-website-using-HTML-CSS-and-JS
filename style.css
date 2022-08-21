@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    font-family: 'Satisfy', cursive;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+    /* padding: 1.3rem; */
+}
+
+nav ul li {
+    padding: 0 2rem 0 0;
+}
+
+.brand img {
+    width: 40px;
+    padding: 10px 10;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.container {
+    min-height: 77vh;
+    color: black;
+    font-family: 'Satisfy',cursive;
+    display: flex;
+    margin: auto;    
+    padding: 30px;
+    width: 80%;
+    border-radius: 20px;
+    background-image: url("/pexels-andrea-piacquadio-3807536.jpg") ;
+    background-size: 1086px;
+    background-color: red;
+}
+
+.bottom {
+    position: sticky;
+    background-color: black;
+    bottom: 0;
+    height: 90px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.icons {
+    margin-top: 12px;
+    font-size: xx-large;
+}
+
+.icons i {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 98vw;
+    cursor: pointer;
+
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    width: 80%;
+    background-color: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.songItem img{
+    width: 80px;
+    border-radius: 80px;
+    
+    
+}
+
+.timestamp{
+    margin: 0 20px;
+}
+
+
+.play:hover{
+    cursor: pointer;
+}
